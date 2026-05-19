@@ -12,7 +12,7 @@ import os
 
 print("Imports done")
 
-model_path = "face_landmarker.task"
+model_path = "./face_landmarker.task"
 
 base_options = python.BaseOptions(model_asset_path=model_path)
 options = vision.FaceLandmarkerOptions(
